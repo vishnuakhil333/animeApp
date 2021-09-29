@@ -1,0 +1,20 @@
+.navi-bar {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logout-btn {
+  background-color: transparent;
+  color: white;
+}
+.logo {
+  color: white;
+  font-size: 14px;
+}
+.navisection {
+  display: flex;
+  justify-content: space-around;
+}

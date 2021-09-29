@@ -1,0 +1,60 @@
+.link {
+  text-decoration: none;
+  color: none;
+}
+.item-container {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:300px;
+  box-shadow: 2px;
+  border-radius:10px;
+  background: rgba(0, 0, 0, 0.966);
+  margin-bottom:20px;
+  margin-right:20px;
+}
+.cover-img {
+  width:290px;
+
+}
+.title {
+  font-family: 'roboto';
+  font-size: 24px;
+  text-align:center;
+  color: white;
+  
+}
+.description {
+  font-family: 'roboto';
+  font-size: 14px;
+  width:280px;
+  color: white;
+}
+.genres-list {
+  width:280px;
+}
+.genre-heading {
+  text-align:left;
+  font-family: 'roboto';
+  font-size: 12px;
+  color: white;
+}
+span{
+  color:white;
+}
+.season-yr {
+  color:white;
+}
+.episodes {
+  color: white;
+}
+.ratings {
+  color: white;
+}
+/* @media (min-width:576px){
+  .cover-img{
+    height: 500px;
+    width:700px;
+  }
+} */

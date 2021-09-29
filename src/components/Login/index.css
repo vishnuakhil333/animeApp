@@ -1,0 +1,35 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.pinimg.com/564x/4e/70/5a/4e705a534d03153e9800b2ba676bf1ee.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cutsom-btn {
+  width: 200px;
+  height: 50px;
+  background-color: lightgrey;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+  margin: 6px;
+}
+a {
+  text-decoration: none;
+  font-family: "roboto";
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .login-section {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 100vh;
+}
+.animie-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.animie-list-container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 360px) {
+  .animie-list-container {
+    min-width: 300px;
+  }
+  .animie-section {
+    min-width: 300px;
+  }
+}
